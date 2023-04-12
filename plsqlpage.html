@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CodStack</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<script src="js/jquery.min.js"></script>
+	<script src="js/skel.min.js"></script>
+	<script src="js/skel-layers.min.js"></script>
+	<script src="js/init.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="css/skel.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-xlarge.css" />
+	</noscript>
+
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.nav{
+    width: 100%;
+    text-align: center;
+}
+nav .logo{
+    /* margin: 20px 0; */
+    padding-top: 15px;
+    text-align: center;
+    cursor: pointer;
+    color:black;
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+align-items: center;
+    
+}
+nav .nav-links{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+nav .nav-links a{
+    text-decoration: none;
+    margin: 15px 30px;
+    color: white;
+    letter-spacing: 2px;
+    /* word-spacing: 4px; */
+    text-align: center;
+
+}
+nav .nav-links a:hover{
+  color: #3da9fc;
+  text-decoration:none;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+ 
+  body{
+     background-color: #f3f5f9;
+  }
+  
+  
+  .content{
+    padding: 5%;
+
+  }
+  .content h2{
+    text-align: left;
+  }
+  .content .syntax p{
+    background-color:grey ;
+    padding: 3%;
+    
+    margin: 3%;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    
+    
+  }
+  
+  img{
+    align-items: center;
+    width: 40%;
+    margin: 6%;
+  }
+  .content ul li {
+    list-style: disc;
+    
+  }
+</style>
+
+<body>
+    <header id="header" class="skel-layers-fixed">
+		<h1><a href="#">CodStack</a></h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="database.html">DBMS</a></li>
+				<li><a href="mysql.html">MYSQL</a></li>
+				<li><a href="plsql.html">PLSQL</a></li>
+				<li><a href="about.html">ABOUT US</a></li>
+			</ul>
+		</nav>
+	</header>
+    <p> PL/SQL Tutorial is well suited for beginners as well as experienced professionals, where you'll get to learn SQL from basic to advanced levels in an easy & organized manner.</p>
+    <h3>What is PL/SQL?</h3>
+    <ul>
+     <li>PL/SQL stands for Procedural Language extensions to the Structured Query Language (SQL).</li>
+     <li>SQL is a powerful language for both querying and updating data in relational databases.</li>
+     <li>Oracle created PL/SQL that extends some limitations of SQL to provide a more comprehensive solution for building mission-critical applications running on the Oracle database. Getting to know more information about PL/SQL language.</li>
+    </ul>
+    <img src="https://metamug.com/article/images/pl-sql-database.jpg" alt="sql">
+    <h3>What Can PL/SQL do?</h3>
+    <ul><li>PL/SQL provides high productivity performance to programmers because it can query, transform, and update data during a database.</li>
+    <li>The applications written in PL/SQL are highly portable.</li>
+    <li>PL/SQL gives a high-security level.</li>
+    <li>PL/SQL can update records in a database</li>
+    <li>PL/SQL can delete records from a database</li>
+    <li>PL/SQL can create new databases</li>
+    <li>PL/SQL can create new tables in a database</li>
+    <li>PL/SQL can create stored procedures in a database</li>
+    <li>PL/SQL can create views in a database</li>
+    <li>PL/SQL can set permissions on tables, procedures, and views</li></ul><br><br>
+    <h1>Process of PL/SQL</h1>
+    <p>When we are executing the command of PL/SQL on any Relational database management system, then the system automatically finds the best routine to carry out our request, and the PL/SQL engine determines how to interpret that particular command.</p>
+    <br>
+    <p>Structured Query Language contains the following four components in its process:</p>
+    <ul><li>Query Dispatcher</li>
+    <li>Optimization Engines</li>
+    <li>Classic Query Engine</li>
+    <li>SQL Query Engine, etc.
+ </li></ul>
+ <p>A classic query engine allows data professionals and users to maintain non-SQL queries. The architecture of PL/SQL is shown in the following diagram:</p>
+ <img src="https://docs.oracle.com/database/121/LNPLS/img/lnpls004.gif" alt="">
+  </div>
+ </div>
+ 
+ <h3>PL SQL WHILE LOOP:</h3>
+            <p> The pl sql while loop repeatedly executes a block of statements until a particular condition is true. It first check the condition and executes a block of statements if condition is true.</p>
+            <br>
+            <h3>PL SQL WHILE LOOP syntax:</h3>
+            <strong> <i> Syntax :</i></strong>
+            <div class="syntax">
+                <p>WHILE condition <br>
+                    LOOP <br>
+                    &nbsp; //block of statements; <br>
+                    END LOOP;
+            </div>
+            <h3>Example:</h3>
+            <img src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/07/11-WHILE-LOOP-output.png" alt="">
+            <br><hr>
+            <h1 class="title">For In Loop Plsql</h1>
+    <div class="wrapper">
+
+        <div class="content">
+
+            <h3>Pl sql for in loop:</h3>
+            <p> The pl sql for in loop repeatedly executes a block of statements for a fixed number of times. The loop
+                iteration occurs between the start and end integer values. The counter is always incremented by 1 and
+                loop terminates when the counter reaches the value of the end integer.</p>
+            <br>
+            
+            <strong> <i>Pl sql for in loop syntax:</i></strong>
+            <div class="syntax">
+                <p>FOR loop_counter IN [REVERSE] start_value .. end_value <br>
+                    LOOP <br>
+                    &nbsp;&nbsp;//block of statements. <br>
+                    END LOOP; <br>
+            </div>
+            <p>Note: <br>
+                1. The double dot (..) specifies the range operator. <br>
+                2. By default iteration is from start_value to end_value but we can reverse the iteration process by using REVERSE keyword. <br>
+                3. No need to declare the counter variable explicitly because it is declared implicitly in the declaration section. <br>
+                5. The EXIT and EXIT WHEN statements can be used.</p> <br>
+           
+
+            <h3>Pl sql for in loop reverse example:</h3>
+            <img src="https://www.plsqltutorial.com/wp-content/uploads/2011/05/plsqforloop.gif" alt="">
+            <hr>
+            <h2>Pl sql exit loop:</h2>
+            <p> The pl sql loop repeatedly executes a block of statements until it reaches a loop exit. The EXIT and EXIT WHEN statements are used to terminate a loop.</p>
+            <br>
+            <h3>Where:</h3>
+            <p>EXIT: The EXIT statement is used to terminate the loop unconditionally and normally used with IF statement. <br>
+                EXIT WHEN: The EXIT WHEN statement is used to terminate the loop conditionally. It terminates the loop when the specified condition is true.</p> 
+           
+            <strong> <i> PL/SQL LOOP statement syntax with EXIT:</i></strong>
+            <div class="syntax">
+                <p>LOOP <br>
+                    &nbsp; //block of statements <br>
+                    EXIT; <br>
+                 END LOOP; 
+            </div>
+            <img src="https://www.dyclassroom.com/image/topic/c/for-loop/nested-for-loop.jpg" alt="">
+            <strong> <i> PL/SQL LOOP statement syntax with EXIT WHEN:</i></strong>
+            <div class="syntax">
+                <p>LOOP <br>
+                    &nbsp;  //block of statements <br>
+                    &nbsp; EXIT WHEN condition; <br>
+                 END LOOP; <br>
+                 <img src="https://oracle-patches.com/images/141/PL_SQL_basics.jpg" alt="">
+            </div>
+        
+            <h2>PL/SQL Case Statement:</h2>
+            <p> Switch statement is used to execute a block of statement based on the switch expression value. An
+                expression must be of type int, short, byte or char. A case value should be a constant literal value and
+                cannot be duplicated. Expression value is compared with each case value. If a match found corresponding
+                block of statements will be executed. A break statement is used to terminate the execution of
+                statements. If no case value matches with expression value then default block of statements will be
+                executed. If break statement is not used within case, all matching cases will be executed.</p>
+            
+            
+            <h2>PL/SQL Block sections:</h2>
+            <p> 1. Declaration section (optional). <br>
+                2. Execution section (mandatory). <br>
+                3. Exception handling section (optional).
+            </p>
+            <br>
+            <h3>Declaration section:</h3>
+            <p>It is an optional section and starts with DECLARE keyword. It is used to declare the variables, constants, records and cursors etc.</p>
+            <br>
+            <h3>Execution section:</h3>
+            <p>Execution section starts with BEGIN keyword and ends with END keyword. It is a mandatory section. It is used to write the program logic code.</p>
+            <i>Note: Execution section must have one statement.</i>
+            <br><br>
+            <h3>Exception handling section:</h3>
+            <p>Execution section starts with EXCEPTION keyword. It is an optional section. It is used to handle the exceptions occurred in execution section.</p>
+            <br>
+            <br>
+            <h2>Important points:</h2>
+            <p>1. Every PL/SQL statement will be followed by semicolon (;). <br>
+                2. PL/SQL blocks can be nested. <br></P>
+            <hr>
+            <h2>Advantages of PL/SQL:</h2>
+            <p>1. PL/SQL is a procedural language. <br>
+                2. PL/SQL is a block structure language. <br>
+                3. PL/SQL handles the exceptions. <br>
+                4. PL/SQL engine can process the multiple SQL statements simultaneously as a single block hence reduce network traffic and provides better performance.</p>
+            <hr>
+            <h2>Pl sql goto statement restrictions:</h2>
+            <p>1. GOTO statement cannot transfer control into an IF statement, CASE statement, LOOP statement or
+                sub-block. <br>
+                2. GOTO statement cannot transfer control from one IF statement clause to another or from one CASE
+                statement WHEN clause to another. <br>
+                3. GOTO statement cannot transfer control from an outer block into a sub-block. <br>
+                4. GOTO statement cannot transfer control out of a subprogram. <br>
+                5. GOTO statement cannot transfer control into an exception handler.</p> <br>
+                <h2>Pl sql goto statement:</h2>
+            <p> The pl sql goto statement provides an unconditional jump from the GOTO to a labeled statement in the
+                same subprogram. A label can be declare with the << label>> syntax.</p>
+                <hr>
+                <h2>Pl sql function:</h2>
+            <p>The pl sql function is a named PL/SQL block which performs one or more specific tasks and must returns a
+                value.</p>
+            <br>
+            <h2>How to pass parameter in a function?</h2>
+            <p>We can use the below modes to pass the parameters in a function:</p><br>
+            <p>IN-parameters: These parameters are the read-only parameters. Function cannot change the value of IN
+                parameters. <br>
+                OUT-parameters: These parameters are the write-only parameters and used to return values back to the
+                calling program. Function can change the value of OUT parameters. <br>
+                IN OUT-parameters: These parameters are read and write parameters i.e. a function can reads and change
+                the IN OUT parameter value and return it back to the calling program.</p>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row double">
+                <div class="6u">
+                    <div class="row collapse-at-2">
+                        <div class="6u">
+                            <ul class="alt">
+                                <li><a href="#">Name</a></li>
+                                <li><a href="#">Courses</a></li>
+                                <li><a href="#"></a>Location</li>
+                            </ul>
+                        </div>
+                        <div class="6u">
+                            <ul class="alt">
+                                <li><a href="#">CodStack</a></li>
+                                <li><a href="#">DBMS</a></li>
+                                <li><a href="#">PGGC SEC-11CHD</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="6u">
+                    <h2>CodStack</h2>
+                    <p>Here you learn about the Data Base Management System so Leran and Create</p>
+                    <ul class="icons">
+                        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="copyright">
+                <li>&copy; Untitled. All rights reserved.</li>
+                <li>Design: <a href="http://templated.co">Vinay Khanduri</a></li>
+            </ul>
+        </div>
+    </footer>
+ 
+</body>
+</html>
